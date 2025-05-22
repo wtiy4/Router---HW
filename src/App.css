@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: aliceblue;
+  background-image: url("https://png.pngtree.com/background/20220831/original/pngtree-saudi-arabia-watercolor-national-day-picture-image_1916802.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
