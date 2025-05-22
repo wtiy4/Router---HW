@@ -19,7 +19,7 @@ function Switch({ place }) {
   return (
     <button
       onClick={handleClick}
-      className="bg-green-400 text-black w-40 p-3 rounded shadow text-center hover:bg-green-500 transition cursor-pointer"
+      className="botn bg-green-400 text-black w-40 p-3 rounded shadow text-center hover:bg-green-500 transition cursor-pointer"
     >
       {place.name}
     </button>

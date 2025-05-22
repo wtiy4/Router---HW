@@ -92,7 +92,7 @@ function ContentPage() {
       style={{ backgroundImage: `url(${place.image})` }}
     >
       <h1 className="text-3xl md:text-4xl font-bold mb-4">{place.name}</h1>
-      <p className="max-w-xl text-lg bg-gray-500">{place.description}</p>
+      <p className="para max-w-xl text-lg">{place.description}</p>
       <div className="mt-20 grid grid-cols-2 md:grid-cols-5 gap-4 w-full max-w-6xl">
         {places.map((place) => (
           <Switch key={place.id} place={place} />
